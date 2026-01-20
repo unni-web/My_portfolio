@@ -26,20 +26,20 @@ const Hero = () => {
                         {/* Buttons */}
                         <div className="mt-8 flex justify-center gap-4">
                             <a
-                                href="#projects"
+                                href="#contact"
                                 className="px-6 py-3 rounded-xl bg-indigo-600 text-white
                 hover:bg-indigo-700 transition shadow-lg"
                             >
-                                Download CV
+                                Get In Touch
                             </a>
 
                             <a
-                                href="#contact"
+                                href="#projects"
                                 className="px-6  py-3 rounded-xl border border-indigo-600
                 text-indigo-600 hover:bg-indigo-600 hover:text-white
                 transition"
                             >
-                                Contact Me
+                                View Projects
                             </a>
                         </div>
 

@@ -7,21 +7,21 @@ const projects = [
   {
     title: "Phoneverse",
     description: "Phoneverse is a full-stack e-commerce web application that enables users to explore mobile products, manage carts, and place orders with a smooth checkout flow",
-    tech: "Django • Razorpay",
+    tech: "• Django • Razorpay • HTML5 • CSS • Bootstrap • JavaScript",
     image: "/src/assets/phoneverse.png",
     link: "#",
   },
   {
     title: "BMS website",
     description: "BMSclone is an online movie ticket booking platform inspired by BookMyShow, designed for a smooth and user-friendly booking flow.",
-    tech: "Django • Bootstrap",
+    tech: "• Django • Bootstrap",
     image: "/src/assets/BMS.png",
     link: "#",
   },
   {
     title: "Picgram",
     description: "Picgram is a photo-sharing social platform inspired by Instagram, built to connect users through visual storytelling.",
-    tech: "Django • CSS",
+    tech: "• Django • CSS",
     image: "/src/assets/picgram.png",
     link: "#",
   },
@@ -38,10 +38,11 @@ const cardVariants = {
 
 const Projects = () => {
   return (
-    <Section>
+    <Section id="projects">
       <Container>
-        <h2 className="text-3xl font-bold text-white mb-10">Projects</h2>
-
+        <h1 className="text-4xl font-bold text-white mb-8">
+          My <span className="text-indigo-500">Projects</span>
+        </h1>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <motion.div
@@ -79,12 +80,7 @@ const Projects = () => {
                   {project.tech}
                 </p>
 
-                <a
-                  href={project.link}
-                  className="inline-block text-sm font-medium text-white bg-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-700 transition"
-                >
-                  View Project
-                </a>
+               
               </div>
             </motion.div>
           ))}
