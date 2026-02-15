@@ -65,7 +65,7 @@ const Navbar = () => {
             {/* RIGHT: Contact Button */}
             <div className="flex-1 flex items-center justify-end">
                 <a
-                    href="/public/Unnikrishnan-CV.pdf"
+                    href="/public/Resume.pdf"
                     className="px-3 py-2 bg-indigo-700 text-white  rounded-xl hover:bg-indigo-600 transition"
                 >
                     Download CV
