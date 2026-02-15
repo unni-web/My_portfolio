@@ -17,9 +17,9 @@ const skills = [
   { name: "AWS EC2", icon: "/src/assets/aws2.png" },
   { name: "Auth0", icon: "/src/assets/auth0.png" },
   { name: "JWT", icon: "/src/assets/jwt.png" },
-  { name: "Razorpay", icon: "/src/assets/python.png" },
-  { name: "Tailwind CSS", icon: "/src/assets/tailwint.png" },
-  { name: "Bootsrap", icon: "/src/assets/python.png" },
+  { name: "Razorpay", icon: "/src/assets/rpay.png" },
+  { name: "Tailwind CSS", icon: "/src/assets/twind.png" },
+  { name: "Bootsrap", icon: "/src/assets/bootsrap.png" },
   { name: "HTML5", icon: "/src/assets/html.png" },
   { name: "CSS", icon: "/src/assets/css2.png" },
 ];
@@ -52,8 +52,8 @@ const Skills = () => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-4xl font-bold text-white mb-8"
+          transition={{ duration: 0.6 }}
+          className="text-4xl font-bold text-white text-center mb-8"
         >
           Skills &<span className="text-indigo-500"> Technologies</span>
         </motion.h2>
@@ -79,14 +79,14 @@ const Skills = () => {
                 text-center
                 backdrop-blur-xl
                 shadow-lg
-                hover:scale-105 hover:shadow-indigo-500/40
-                transition-all duration-300
+                hover:scale-112 hover:shadow-indigo-500/40
+                transition-all duration-500
               "
             >
               <img
                 src={skill.icon}
                 alt={skill.name}
-                className="w-12 h-12 mb-4 group-hover:scale-110 transition-transform duration-300"
+                className="w-12 h-12 mb-4 group-hover:scale-110 transition-transform duration-500"
               />
               <span className="text-white font-medium text-sm">
                 {skill.name}

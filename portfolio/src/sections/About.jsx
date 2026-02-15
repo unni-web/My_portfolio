@@ -20,7 +20,7 @@ const About = () => {
               </h1>
 
               <TextType
-                text=" I'm Unnikrishnan., a passionate and self-motivated full-stack Python developer with hands-on experience in building dynamic web applications using Django, React, and the MERN stack. My journey into tech began with curiosity and grew into a strong commitment to building solutions that matter"
+                text=" I'm Unnikrishnan., a passionate and self-motivated full-stack Python developer with hands-on experience in building dynamic web applications using Django, React. My journey into tech began with curiosity and grew into a strong commitment to building solutions that matter"
                 text2=" Over time, I've developed a solid understanding of both frontend and backend development, and I enjoy transforming ideas into real-world applications. I'm always eager to learn new technologies, explore innovative ideas, and take on meaningful challenges that push my limits."
                 typingSpeed={90}
                 pauseDuration={1500}
@@ -28,7 +28,7 @@ const About = () => {
               />
 
               {/* CONTACT INFO */}
-              <div className="grid gap-4 mb-10 text-gray-300">
+              <div className="grid gap-4 mb-10 mt-5 text-gray-300">
                 <div className="flex items-center gap-3">
                   <span className="text-blue-500 text-lg">✉</span>
                   <span>unnikrish1011@gmail.com</span>

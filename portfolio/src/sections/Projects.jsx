@@ -14,14 +14,14 @@ const projects = [
   {
     title: "BMS website",
     description: "BMSclone is an online movie ticket booking platform inspired by BookMyShow, designed for a smooth and user-friendly booking flow.",
-    tech: "• Django • Bootstrap",
+    tech: "• Django • Bootstrap • HTML5 • CSS",
     image: "/src/assets/BMS.png",
     link: "#",
   },
   {
     title: "Picgram",
     description: "Picgram is a photo-sharing social platform inspired by Instagram, built to connect users through visual storytelling.",
-    tech: "• Django • CSS",
+    tech: "• Django • HTML5 • CSS • Bootstrap",
     image: "/src/assets/picgram.png",
     link: "#",
   },
@@ -40,9 +40,10 @@ const Projects = () => {
   return (
     <Section id="projects">
       <Container>
-        <h1 className="text-4xl font-bold text-white mb-8">
+        <h1 className="text-4xl font-bold text-white text-center mb-8">
           My <span className="text-indigo-500">Projects</span>
         </h1>
+        
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <motion.div

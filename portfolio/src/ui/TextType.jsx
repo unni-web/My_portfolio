@@ -20,8 +20,7 @@ const TextType = ({
   showCursor = true,
   cursorCharacter = '',
   cursorBlinkDuration = 0.5,
-  startOnVisible = false,
-  ...rest
+  startOnVisible = false
 }) => {
   /* -------------------- State -------------------- */
   const [text1Typed, setText1Typed] = useState('');
@@ -95,16 +94,13 @@ const TextType = ({
     Component,
     {
       ref: containerRef,
-      className: `whitespace-pre-wrap ${className}`,
-      ...rest
+      className: `whitespace-pre-wrap ${className}`
     },
     <>
-      {/* Paragraph 1 */}
       <p style={{ color: GRAY_300 }}>
         {text1Typed}
       </p>
 
-      {/* Paragraph 2 */}
       {text2 && (
         <p style={{ color: GRAY_300 }} className="mt-3">
           {text2Typed}

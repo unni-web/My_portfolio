@@ -13,11 +13,11 @@ const Contact = () => {
 
   emailjs
     .sendForm(
-      "service_sag7q08",
-      "template_s82llyy",
+      "service_iqq9cfm",
+      "template_ebgh4tc",
       formRef.current,
       {
-        publicKey: "jCp4B_NDKOiWDimRheYRq",
+        publicKey: "t-WDCEr-riasBXYUv",
       }
     )
     .then(

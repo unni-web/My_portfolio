@@ -6,10 +6,12 @@ import Hero from "../sections/Hero";
 import Navbar from "../Components/Layout/Navbar";
 import Contact from "../sections/Contact";
 import Footer from "../Components/Layout/Footer";
+import SplashCursor from "../ui/SplashCursor";
 
 const Home =() =>{
     return(
         <>
+        <SplashCursor />
         <Navbar/>
         <Hero/>
         <About/>
